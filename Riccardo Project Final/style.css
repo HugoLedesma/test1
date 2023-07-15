@@ -1,0 +1,83 @@
+body{
+  margin: 0px;
+  font-family:Arial;
+  background-color:lightgray;
+}
+
+h1{
+  text-align:center;
+  
+}
+
+.paragraph{
+  padding: 30px;
+  background-color: lightblue;
+  color: black;
+  font-size:18px;
+  margin:40px;
+}
+
+#blurb{
+  text-align:center;
+  border:2px solid black;
+}
+
+#output{
+  border:2px solid black;
+  line-height:32px;
+  text-indent:50px;
+  letter-spacing:0.5px;
+}
+
+.input{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+
+
+
+.input *{
+  flex:1;
+}
+
+
+#message{
+  color:white;
+  max-width:300px;
+  padding: 10px;
+  font-size:20px;
+}
+
+#input{
+  max-width:300px;
+  max-height:25px;
+  font-size: 20px;
+  padding:3px;
+  border:2px solid black;
+}
+
+.enter{
+  display: flex;
+  border:2px solid black;
+  padding: 10px;
+  flex:1;
+  flex-direction:column;
+  margin-right:40px;
+  background-color:lightblue;
+}
+
+.further{
+  display: flex;
+  flex-direction: row;
+}
+
+#button{
+  flex:1;
+  padding:10px;
+  background-color:#14b814;
+  border:2px solid black;
+  max-width:40px;
+  margin-left:75px;
+  font-size: 15px;
+}
